@@ -12,7 +12,7 @@ s.ios.frameworks = 'MobileCoreServices'
 s.tvos.frameworks = 'MobileCoreServices'
 s.osx.frameworks = 'CoreServices'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 s.tvos.deployment_target = '10.1'
 s.osx.deployment_target = '10.10'
 
@@ -20,6 +20,6 @@ s.source_files = 'Source/*.{h,m,swift}'
 
 s.requires_arc = true
 
-s.dependency 'Alamofire', '~> 4.1'
-s.dependency 'SWXMLHash', '~> 4.1.0'
+s.dependency 'Alamofire', '~> 4.5'
+s.dependency 'SWXMLHash', '~> 4.2.5'
 end
